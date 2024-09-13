@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", system-ui;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: grey;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 80px;
+}
+.navbar{
+    display: flex;
+}
+.navbar div{
+    padding: 30px 20px;
+}
+.navbar a{
+    color: white;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+.avatar img{
+    width: 230px;
+}
+.about{
+    text-align: center;
+}
+.about-text{
+    width: 652px;
+    margin: 30px auto;
+}
+.about-text{
+    font-size: 40px;
+    line-height: 1;
+}
+.about-text h1> span{
+    background: var(
+        --Primary-Gradient,
+        linear-gradient(116deg, #ff8660 71.79%, #9a33ff 95.51%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+}
+.about-text p{
+    font-size: 17px;
+}
+.btn-primary{
+    width: 180px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid var(--Primary-Color, #fff);
+  background: linear-gradient(
+      0deg,
+      var(--Primary-Color, #fff) 0%,
+      var(--Primary-Color, #fff) 100%
+    ),
+    var(--Primary-Color, #fff);
+  font-size: 22px;
+  margin-right: 20px;
+}
+.btn-secondary{
+    width: 180px;
+    height: 50px;
+    background-color:black;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+.about-btn{
+    margin-top:20px ;
+}
+.exeperience-with{
+    text-align: center;
+}
+.exeperience-with h2{
+    font-size: 25px;
+}
+.exeperience-with-lang{
+    display: flex;
+    width: 500px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.exeperience-with-lang img{
+    width: 45px;
+    cursor: pointer;
+}
+.primary-heading{
+  text-align: center;
+  font-size: 35px;
+  
+   
+   
+    
+}
+.heading-project{
+    background: var(
+        --Orange-Gradient,
+        linear-gradient(180deg, #ff8660 0%, #d5491d 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.project-item{
+    background: #2a2a2a;
+    margin: 15px;
+    border-radius: 18px 18px 0 0;
+}
+.project-item img{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+}
+
+.project-title{
+    padding: 15px;
+}
+.project-title h3{
+    color: #fff;
+}
+.heading-exeperience{
+    background: var(
+      --Blue-Gradient,
+      linear-gradient(180deg, #5badff 0%, #1373d1 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.exeperience-item{
+    padding: 30px 0;
+}
+.exeperience-title-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.exeperience-title-container .date{
+    margin-left: auto;
+}
+.exeperience-title{
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.footer{
+    background-color: #191919;
+  
+}
+footer h2{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+footer p{
+font-size: 15px;
+}
+.email-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.email-container img{
+    margin-right: 10px;
+
+}
+.social-links{
+    display: flex;
+     margin-top: 20px;
+   
+}
+.social-links img{
+    margin-right:10px ;
+}
